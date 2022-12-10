@@ -43,12 +43,6 @@ public T add(T dado){
         ultimoItem.setProximo(item);
         ultimoItem = item;
     }
-    /*System.out.println(primeiroItem.getDado());
-    System.out.println(ultimoItem==null?"":ultimoItem.getDado());
-    System.out.println(primeiroItem);
-    System.out.println(ultimoItem);
-    System.out.println();
-    System.out.println();*/
     tamanho++;
     return dado;
 }
